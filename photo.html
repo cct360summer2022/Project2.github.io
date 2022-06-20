@@ -1,0 +1,928 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Photo</title>
+
+
+
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+
+
+  </head>
+
+
+
+
+  <body id="phtot" class="bg-light d-flex flex-column">
+
+
+   <!--navgation-->
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+     <div class="container mt-2">
+      <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt="logo" ></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class=" collapse navbar-collapse justify-content-end"  id="navbarNavDropdown">
+       <ul class="navbar-nav">
+
+
+
+        <li class="nav-item">
+         <a class="nav-link" aria-current="page" href="index.html">Home</a>
+       </li>
+
+
+
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Explore
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="latest.html">Latest</a></li>
+          <li><a class="dropdown-item" href="aboutme.html">About Me</a></li>
+          <li><a class="dropdown-item" href="skills&honors.html">Skills &amp; Honors</a></li>
+        </ul>
+      </li>
+
+
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Gallery
+      </a>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+        <li><a class="dropdown-item active" href="photo.html">Photo</a></li>
+        <li><a class="dropdown-item" href="moreworks.html">More Works</a></li>
+      </ul>
+    </li>
+
+
+
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+
+
+    <li class="nav-item">
+      <a class="nav-link" href="processpage.html">Process Page</a>
+    </li>
+
+
+  </ul>
+</div>
+</div>
+</nav>
+
+
+
+
+<div class="p-5 m-5 bg-dark text-light">
+
+
+  <div class="container py-5">
+   <h2 class="display-4 text-light">Photo</h2>
+   <p class="col-md-8 fs-4">A gallery showing a series of portfolios.</p>  
+ </div>
+
+
+
+</div>
+
+
+
+
+
+<section >
+
+  <div id="latestsmall" class="container  px-4 py-5">
+
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2  g-4">
+
+
+
+
+
+
+
+      <!--card one start-->
+      <div class="col">
+        <div class="card">
+          <div class="card-header text-light">
+            <h3>DATE WITH WINTER</h3> 
+          </div>
+          <img src="images/ice.jpg" class="card-img-top" alt="ice"><!-- Photo by Tianyu Zhu -->
+          <div class="card-body text-light">
+            <h5 class="card-title">Date with Winter</h5>
+            <p class="card-text">A series documenting winter life.Trying to show the beauty and romance of winter from the perspective of a southerner.</p>
+
+
+
+
+
+            <!--acc1 start--> 
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button class="accordion-button collapsed bg-dark text-light shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Explore More
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+
+                    <div class="row g-4" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#iceCarousel" data-bs-slide-to="0" src="images/ice.jpg" class="d-block w-100 h-100" alt="ice"> <!-- Photo by Tianyu Zhu -->
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#iceCarousel" data-bs-slide-to="1" src="images/snowhouse.jpg" class="d-block w-100 h-100" alt="snowhouse"> <!-- Photo by Tianyu Zhu -->
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#iceCarousel" data-bs-slide-to="2" src="images/icelake.jpg" class="d-block w-100 h-100"  alt="icelake"> <!-- Photo by Tianyu Zhu -->
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#iceCarousel" data-bs-slide-to="3" src="images/icecar.jpg" class="d-block w-100 h-100" alt="icecar"> <!-- Photo by Tianyu Zhu -->
+                      </div>
+
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg model-xl ">
+                <div class="modal-content bg-dark">
+                  <div class="modal-header ">
+                    <h5 class="modal-title " id="exampleModalLabel">Date with Winter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Carousel goes here-->
+                    <div id="iceCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#iceCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#iceCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#iceCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#iceCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/ice.jpg" class="d-block w-100" alt="ice">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>ice fall</h5>
+
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/snowhouse.jpg" class="d-block w-100" alt="snowhouse">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Snowhouse</h5>
+
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/icelake.jpg" class="d-block w-100" alt="icelake">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Ice Lake</h5>
+
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/icecar.jpg" class="d-block w-100" alt="icecar">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Ice Car</h5>
+
+                          </div>
+                        </div>
+
+
+
+
+
+
+
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#iceCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#iceCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--acc 1 end-->
+
+          </div>
+        </div>
+      </div>
+      <!--card one end-->
+
+
+
+
+
+
+<!-- Photo by Tianyu Zhu -->
+
+      <!--card Two start-->
+      <div class="col">
+        <div class="card">
+          <div class="card-header text-light">
+            <h3>SERIES OF SOUTH WILD</h3> 
+          </div>
+          <img src="images/moxico.jpg" class="card-img-top " height="430px" alt="moxico">
+          <div class="card-body text-light">
+            <h5 class="card-title">Series of south wild</h5>
+            <p class="card-text">A collection that showcases the beauty and wildness of South America's tropics.</p>
+
+
+
+
+
+            <!--acc1 start--> 
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button class="accordion-button collapsed bg-dark text-light shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Explore More
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+
+                    <div class="row g-4" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#hotCarousel" data-bs-slide-to="0" src="images/moxico.jpg" class="d-block w-100 h-100" alt="moxico"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#hotCarousel" data-bs-slide-to="1" src="images/tree.jpg" class="d-block w-100 h-100" alt="tree"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#hotCarousel" data-bs-slide-to="2" src="images/moxico2.jpg" class="d-block w-100 h-100"  alt="moxico2"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#hotCarousel" data-bs-slide-to="3" src="images/summer.jpg" class="d-block w-100 h-100" alt="summer"> 
+                      </div>
+
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg model-xl ">
+                <div class="modal-content bg-dark">
+                  <div class="modal-header ">
+                    <h5 class="modal-title " id="exampleModalLabel">Series of south wild</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Carousel goes here-->
+                    <div id="hotCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#hotCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#hotCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#hotCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#hotCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/moxico.jpg" class="d-block w-100" alt="moxico">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>pyramid</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/tree.jpg" class="d-block w-100" alt="tree">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Tree</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/moxico2.jpg" class="d-block w-100" alt="moxico2">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Ocean</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/summer.jpg" class="d-block w-100" alt="summer">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Shark</h5>
+                            
+                          </div>
+                        </div>
+
+
+
+
+
+
+
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#hotCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#hotCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--acc 1 end-->
+
+          </div>
+        </div>
+      </div>
+      <!--card Two end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Photo by Tianyu Zhu -->
+
+      <!--card Three start-->
+      <div class="col">
+        <div class="card">
+          <div class="card-header text-light">
+            <h3>LIFE IS WONDERFUL</h3> 
+          </div>
+          <img src="images/mountain.jpg" class="card-img-top " height="430px" alt="mountain">
+          <div class="card-body text-light">
+            <h5 class="card-title">life is wonderful</h5>
+            <p class="card-text">A collection that records beautiful life fragments and cultural landforms.</p>
+
+
+
+
+
+            <!--acc1 start--> 
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button class="accordion-button collapsed bg-dark text-light shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Explore More
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+
+                    <div class="row g-4" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#lifeCarousel" data-bs-slide-to="0" src="images/mountain.jpg" class="d-block w-100 h-100" alt="mountain"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#lifeCarousel" data-bs-slide-to="1" src="images/village.jpg" class="d-block w-100 h-100" alt="village"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#lifeCarousel" data-bs-slide-to="2" src="images/land.jpg" class="d-block w-100 h-100"  alt="land"> 
+                      </div>
+                    
+
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg model-xl ">
+                <div class="modal-content bg-dark">
+                  <div class="modal-header ">
+                    <h5 class="modal-title " id="exampleModalLabel">life is wonderful</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Carousel goes here-->
+                    <div id="lifeCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#lifeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#lifeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#lifeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    
+
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/mountain.jpg" class="d-block w-100" alt="mountain">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>mountain</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/village.jpg" class="d-block w-100" alt="village">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Village</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/land.jpg" class="d-block w-100" alt="land">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Land</h5>
+                            
+                          </div>
+                        </div>
+              
+
+
+
+
+
+
+
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#lifeCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#lifeCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--acc 1 end-->
+
+          </div>
+        </div>
+      </div>
+      <!--card Three end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Photo by Tianyu Zhu -->
+      <!--card Four start-->
+      <div class="col">
+        <div class="card">
+          <div class="card-header text-light">
+            <h3>EMOTION</h3> 
+          </div>
+          <img src="images/dark.jpg" class="card-img-top " height="430px" alt="dark">
+          <div class="card-body text-light">
+            <h5 class="card-title">Emotion</h5>
+            <p class="card-text">Record emotions in life in an abstract way.</p>
+
+
+
+
+
+            <!--acc1 start--> 
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button class="accordion-button collapsed bg-dark text-light shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Explore More
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+
+                    <div class="row g-4" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#emoCarousel" data-bs-slide-to="0" src="images/dark.jpg" class="d-block w-100 h-100" alt="dark"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#emoCarousel" data-bs-slide-to="1" src="images/dawn1.jpg" class="d-block w-100 h-100" alt="dawn"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#emoCarousel" data-bs-slide-to="2" src="images/dawn2.jpg" class="d-block w-100 h-100"  alt="dawn2"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#emoCarousel" data-bs-slide-to="3" src="images/drive.jpg" class="d-block w-100 h-100" alt="drive"> 
+                      </div>
+
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg model-xl ">
+                <div class="modal-content bg-dark">
+                  <div class="modal-header ">
+                    <h5 class="modal-title " id="exampleModalLabel">Series of south wild</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Carousel goes here-->
+                    <div id="emoCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#emoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#emoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#emoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#emoCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/dark.jpg" class="d-block w-100" alt="dark">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>dark</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/dawn1.jpg" class="d-block w-100" alt="dawn">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Dawn</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/dawn2.jpg" class="d-block w-100" alt="dawn">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Dawn</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/drive.jpg" class="d-block w-100" alt="drive">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Drive</h5>
+                            
+                          </div>
+                        </div>
+
+
+
+
+
+
+
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#emoCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#emoCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--acc 1 end-->
+
+          </div>
+        </div>
+      </div>
+      <!--card Four end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Photo by Tianyu Zhu -->
+      <!--card Five start-->
+      <div class="col">
+        <div class="card">
+          <div class="card-header text-light">
+            <h3>HI!</h3> 
+          </div>
+          <img src="images/sorry.jpg" class="card-img-top " height="430px" alt="sorry">
+          <div class="card-body text-light">
+            <h5 class="card-title">Hi!</h5>
+            <p class="card-text">Life with cute lifes.</p>
+
+
+
+
+
+            <!--acc1 start--> 
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button class="accordion-button collapsed bg-dark text-light shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFIVE" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Explore More
+                  </button>
+                </h2>
+                <div id="flush-collapseFIVE" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+
+                    <div class="row g-4" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#cutCarousel" data-bs-slide-to="0" src="images/hh.jpg" class="d-block w-100 h-100" alt="sit"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#cutCarousel" data-bs-slide-to="1" src="images/sleep.jpg" class="d-block w-100 h-100" alt="sleep"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#cutCarousel" data-bs-slide-to="2" src="images/back.jpg" class="d-block w-100 h-100"  alt="back"> 
+                      </div>
+                      <div class="col-6 col-md-6">
+                        <img data-bs-target="#cutCarousel" data-bs-slide-to="3" src="images/cat.jpg" class="d-block w-100 h-100" alt="cat"> 
+                      </div>
+
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg model-xl ">
+                <div class="modal-content bg-dark">
+                  <div class="modal-header ">
+                    <h5 class="modal-title " id="exampleModalLabel">Hi!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Carousel goes here-->
+                    <div id="cutCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#cutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#cutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#cutCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#cutCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/sorry.jpg" class="d-block w-100" alt="sorry">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Sorry</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/sleep.jpg" class="d-block w-100" alt="sleep">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>sleep</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/back.jpg" class="d-block w-100" alt="back">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Back</h5>
+                            
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/cat.jpg" class="d-block w-100" alt="cat">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Cat</h5>
+                            
+                          </div>
+                        </div>
+
+
+
+
+
+
+
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#cutCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#cutCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--acc 1 end-->
+
+          </div>
+        </div>
+      </div>
+      <!--card Five end-->
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</section>
+
+
+
+
+
+<section class="mb-5">
+
+  <div id="latestsmall" class="container  px-4">
+
+
+
+
+
+
+  <div id="more" class="card-header text-light text-center">
+       <button type="button" class="btn btn-secondary"> <a href="#"> Load More...</a></button>
+      </div>
+
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer mt-auto py-3 ">
+  <a class="text-white" href="#">Privacy Policy</a>  
+  <a class="text-white" href="latest.html">NewsLetter</a>
+  <a class="text-white" href="contact.html">Contact</a>
+  <a class="text-white" href="#">Donate</a>
+</footer>
+
+
+
+
+
+
+
+<!-- Bootstrap Javascript Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
